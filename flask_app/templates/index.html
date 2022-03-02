@@ -10,6 +10,7 @@
 <body>
     <div> 
     <h1>New Dojo</h1>
+    <h1>Welcome: {{ user.first_name }}</h1>
         <form action="/create_dojo" method="POST">
             <label for="name">Dojo Name:</label>
             <input type="text" name="name">
